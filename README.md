@@ -287,7 +287,7 @@ The system uses a JSON configuration file for easy customization:
     "API_KEY": "YOUR_API_KEY_HERE",
     "SEND_INTERVAL": 60
   },
-  "PHONE_NUMBERS": ["+256764152908", "+256770701680"]
+  "PHONE_NUMBERS": ["+_________", "+_________"]
 }
 ```
 
@@ -721,8 +721,6 @@ System pays for itself by **preventing just one major loss event**
 
 ### Resources
 - **Hardware Guide:** See wiring diagrams in project documentation
-- **API Documentation:** ThingSpeak API at https://thingspeak.com/docs
-- **Raspberry Pi:** https://www.raspberrypi.org/documentation/
 - **Python Libraries:** PyPI package documentation
 
 ### Getting Help
