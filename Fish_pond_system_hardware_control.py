@@ -116,7 +116,7 @@ DEFAULT_CONFIG = {
     # ThingSpeak cloud logging configuration
     "THINGSPEAK": {
         "URL": "https://api.thingspeak.com/update",
-        "API_KEY": "O0YOQQGDSJGFZH8P",
+        "API_KEY": "",
         "SEND_INTERVAL": 60,       # Minimum 15 seconds (ThingSpeak rate limit)
         "BACKUP_FILE": os.path.join(SCRIPT_DIR, 'pond_thingspeak_backup.csv'),
         "MAX_RETRIES": 3,          # Retry attempts for failed uploads
@@ -143,7 +143,7 @@ DEFAULT_CONFIG = {
     },
     
     # Phone numbers for SMS alerts (international format with country code)
-    "PHONE_NUMBERS": ["+256764152908", "+256770701680"]
+    "PHONE_NUMBERS": ["", ""]
 }
 
 def check_network_connectivity():
@@ -1850,4 +1850,5 @@ def main():
             logger.error("Cleanup failed")
 
 if __name__ == "__main__":
+
     main()
